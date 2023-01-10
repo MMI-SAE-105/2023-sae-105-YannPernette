@@ -19,6 +19,8 @@
         <p>Ceci est un carrousel</p>
 
         <div class="carrousel" x-data="{image_active: '#ecran-1'}">
+
+            <img class="carrousel__cadre" src="../public/img/image/cadre.webp" alt="Cadre du carrousel">
             
             <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button><button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
             
