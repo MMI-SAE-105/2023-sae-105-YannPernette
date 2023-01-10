@@ -1,3 +1,5 @@
 .paragraphe {
     background-color: var(--color-4);
+    margin: 15px;
+    border-radius: 10px;
 }
