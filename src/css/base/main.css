@@ -1,3 +1,7 @@
 body {
     font-family: var(--work-sans);
 }
+
+p {
+    font-family: var(--work-sans);
+}
