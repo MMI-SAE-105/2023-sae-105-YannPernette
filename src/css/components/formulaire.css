@@ -1,5 +1,12 @@
 .formulaire {
+    font-size: var(--bouton-petit-plus);
     background-color: var(--color-2);
     margin: 15px;
     padding: 20px;
+    border-radius: 10px;
 }
+
+.formulaire__label {
+    color: var(--color-3);
+}
+
