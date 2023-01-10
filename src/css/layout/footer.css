@@ -20,6 +20,11 @@
     margin: 40px 0;
 }
 
+.footer__mmi {
+    display: flex;
+    margin-top: 30px;
+}
+
 .footer__textemmi {
     font-size: var(--basique);
     width: 18em;
@@ -32,7 +37,7 @@
 
 .footer__logommi {
     width: 20%;
-    /* right: 3em; */
+    right: 0;
 }
 
 .footer__reseaux {
