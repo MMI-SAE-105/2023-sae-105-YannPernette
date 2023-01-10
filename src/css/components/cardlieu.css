@@ -1,3 +1,16 @@
+.cardlieu {
+    margin: 0;
+}
+
+.cardlieu__date {
+    text-align: center;
+}
+
 .cardlieu__img {
-    width: 60%;
+    margin-left: 0px;
+    width: 110%;
+}
+
+.cardlieu__icon {
+    width: 5%;
 }
