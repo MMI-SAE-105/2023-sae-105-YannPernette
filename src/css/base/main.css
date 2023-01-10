@@ -10,3 +10,8 @@ p {
 h1 {
     font-family: var(--moon-dance);
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
