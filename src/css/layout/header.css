@@ -1,0 +1,11 @@
+.header {
+    background-color: var(--color-3);
+}
+
+.header__logo {
+    width: 60%;
+}
+
+.header__langue {
+    width: 10%;
+}
