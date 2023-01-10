@@ -22,9 +22,9 @@
 --menu: 2.86rem;
 
 /* Typography */
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Moon Dance', cursive;
-font-family: 'Petit Formal Script', cursive;
-font-family: 'Work Sans', sans-serif;
+--maven-pro: 'Maven Pro', sans-serif;
+--moon-dance: 'Moon Dance', cursive;
+--petit-formal-script: 'Petit Formal Script', cursive;
+--work-sans: 'Work Sans', sans-serif;
 
 }
