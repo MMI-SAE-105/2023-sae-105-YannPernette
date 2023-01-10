@@ -21,7 +21,8 @@ Soyez attentifs à l'ordre d'import :
 @import "utils/variables.css";
 
 /* Règles générales */
-
+@import "base/main.css";
+@import "base/media.css";
 
 /* Règles de composition */
 
