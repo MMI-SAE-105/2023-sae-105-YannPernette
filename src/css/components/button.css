@@ -12,3 +12,9 @@
     background-color: var(--color-3);
     
 }
+
+.button--artistes {
+    color: white;
+    background-color: var(--color-1);
+    
+}
