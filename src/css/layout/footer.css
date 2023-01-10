@@ -1,0 +1,9 @@
+.footer {
+    color: var(--color-4);
+    font-size: var(--bouton-petit);
+    background-color: var(--color-2);
+}
+
+.footer__logo {
+    width: 70%;
+}
