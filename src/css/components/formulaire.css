@@ -1,3 +1,5 @@
 .formulaire {
     background-color: var(--color-2);
+    margin: 15px;
+    padding: 20px;
 }
