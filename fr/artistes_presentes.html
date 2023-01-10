@@ -17,6 +17,58 @@
         <!-- A remplacer par le carrousel d'artistes -->
         <p>Ceci est un carrousel</p>
 
+        <div class="carrousel" x-data="{image_active: '#ecran-1'}">
+            
+            <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button><button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
+            
+            <div class="carrousel_parent-ecrans" x-ref="parent" 
+                    @scroll.debounce.250ms.passive="
+            hrefCourant = '#'+
+                              [...$refs.parent.children]
+                               .find(e=>e.getBoundingClientRect().x>=0)
+                               .id
+                                                 "
+            >
+                
+                <div class="carrousel_ecran">
+                    <figure>
+                        <img src="../public/img/articles/pacific_rim/carrousel/cronos.webp" alt="Ecran 1">
+                        <figcaption>1993 - Genre : Horreur</figcaption>
+                    </figure>
+                </div>
+
+                <div class="carrousel_ecran">
+                    <figure>
+                        <img src="../public/img/articles/pacific_rim/carrousel/mimic.webp" alt="Ecran 2">
+                        <figcaption>1997 - Genre : Horreur</figcaption>
+                    </figure>
+                </div>
+
+                <div class="carrousel_ecran">
+                    <figure>
+                        <img src="../public/img/articles/pacific_rim/carrousel/lechine_du_diable.webp" alt="Ecran 3">
+                        <figcaption>2001 - Genre : Horreur, Drame</figcaption>
+                    </figure>
+                </div>
+
+                <div class="carrousel_ecran">
+                    <figure>
+                        <img src="../public/img/articles/pacific_rim/carrousel/blade_deux.webp" alt="Ecran 4">
+                        <figcaption>2002 - Genre : Fantastique</figcaption>
+                    </figure>
+                </div>
+
+                <div class="carrousel_ecran">
+                    <figure>
+                        <img src="../public/img/articles/pacific_rim/carrousel/hellboy.webp" alt="Ecran 5">
+                        <figcaption>2004 - Genre : Fantastique</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+        </div>
+
         <section>
             <h2>Comment ça marche ?</h2>
             <div class="paragraphe">
