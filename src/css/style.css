@@ -29,3 +29,4 @@ Soyez attentifs à l'ordre d'import :
 @import "layout/footer.css";
 
 /* Composants */
+@import "components/paragraphe.css";
