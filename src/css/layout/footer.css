@@ -2,10 +2,20 @@
     color: var(--color-4);
     font-size: var(--bouton-petit);
     background-color: var(--color-2);
+    padding: 15px;
 }
 
 .footer__logo {
     width: 70%;
+}
+
+.footer__textemmi {
+    font-size: var(--basique);
+    margin-right: 70px;
+}
+
+.footer__lienmmi {
+    color: var(--color-1);
 }
 
 .footer__logommi {
