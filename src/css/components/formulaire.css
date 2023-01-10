@@ -10,3 +10,7 @@
     color: var(--color-3);
 }
 
+.formulaire__input {
+    margin: 5px auto 13px;
+    border-radius: 5px;
+}
