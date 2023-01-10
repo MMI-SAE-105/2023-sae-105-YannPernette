@@ -1,0 +1,65 @@
+.carrousel {
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 35px 35px 35px;
+}
+
+.carrousel img {
+    width: 100%;
+    height: auto;
+    /* opacity: 60%; */
+}
+
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel_ecran {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+}
+
+.carrousel_btn {
+    position: absolute;
+    top: 50%; /* centre verticalement */
+    transform: translateY(-50%); /* methode du point mort */
+    width: 2rem;
+    height: 2rem;
+    background: var(--noir);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: var(--dore);
+    font-family: var(--josefin-sans);
+}
+  
+.carrousel_btn-avant {
+    left: 1.5px;
+}
+  
+.carrousel_btn-apres {
+    right: 1.5px;
+}
+
+.carrousel a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.carrousel figcaption {
+    text-align: center;
+    font-size: var(--sous-titre);
+    margin-bottom: 5px;
+}
