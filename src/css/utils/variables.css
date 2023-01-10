@@ -10,15 +10,15 @@
 /* Text-size styles */
 /* base size: basique (14px) */
 --basique: 1rem;
---boutons: 1.71rem;
+--bouton: 1.71rem;
 --titre: 2.29rem;
 --bouton-petit: 1.43rem;
---basique-: 1.14rem;
+--basique-plus: 1.14rem;
 --description: 1.14rem;
 --basique-upper: 1rem;
 --quote: 1.71rem;
---basique-: 1.29rem;
---bouton-petit-: 1.57rem;
+--basique-plus-plus: 1.29rem;
+--bouton-petit-plus: 1.57rem;
 --menu: 2.86rem;
 
 /* Typography */
