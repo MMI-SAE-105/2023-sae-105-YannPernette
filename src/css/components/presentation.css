@@ -1,9 +1,18 @@
 .presentation__img {
-    margin-left: -45px;
     width: 125%;
     background-color: white;
     padding: 60px 0;
-    margin-top: -15px;
+    margin-top: -16px;
+    margin-left: -43px;
+}
+
+.presentation__date {
+    font-size: var(--basique-plus);
+    font-weight: 600;
+    z-index: 5;
+    position: absolute;
+    top: 16.3em;
+    right: 0.5em;
 }
 
 .presentation__titre {
@@ -13,4 +22,5 @@
     color: white;
     background-color: var(--color-2);
     padding: 10px 50px;
+    margin-top: -20px;
 }
