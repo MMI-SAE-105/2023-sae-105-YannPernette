@@ -9,6 +9,15 @@
     width: 70%;
 }
 
+.footer__mailto {
+    color: var(--color-4);
+    margin-right: 150px;
+}
+
+.footer__lien {
+    color: var(--color-4);
+}
+
 .footer__textemmi {
     font-size: var(--basique);
     margin-right: 70px;
