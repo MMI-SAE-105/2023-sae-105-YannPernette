@@ -1,7 +1,12 @@
 body {
     font-family: var(--work-sans);
+    background-color: var(--color-5);
 }
 
 p {
     font-family: var(--work-sans);
+}
+
+h1 {
+    font-family: var(--moon-dance);
 }
