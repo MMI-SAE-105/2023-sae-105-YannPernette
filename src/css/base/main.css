@@ -10,6 +10,8 @@ p {
 
 h1 {
     font-family: var(--moon-dance);
+    font-size: var(--titre);
+    text-align: center;
 }
 
 a {
