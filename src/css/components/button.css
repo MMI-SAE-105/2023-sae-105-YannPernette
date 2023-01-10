@@ -1,0 +1,12 @@
+.button {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: var(--bouton-petit);
+}
+
+.button--naturalisme {
+    color: black;
+    background-color: var(--color-3);
+    
+}
