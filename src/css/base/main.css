@@ -5,6 +5,7 @@ body {
 
 p {
     font-family: var(--work-sans);
+    padding: 10px;
 }
 
 h1 {
