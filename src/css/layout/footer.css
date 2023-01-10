@@ -16,11 +16,13 @@
 
 .footer__lien {
     color: var(--color-4);
+    /* padding: 20px 0; */
 }
 
 .footer__textemmi {
     font-size: var(--basique);
-    margin-right: 70px;
+    width: 18em;
+    padding: 0;
 }
 
 .footer__lienmmi {
@@ -28,5 +30,6 @@
 }
 
 .footer__logommi {
-    width: 30%;
+    width: 20%;
+    /* right: 3em; */
 }
