@@ -1,7 +1,6 @@
 .carrousel {
     box-sizing: border-box;
     position: relative;
-    margin-top: 140px;
 }
 
 .carrousel img {
@@ -68,7 +67,7 @@
 
 .carrousel__cadre {
     position: absolute;
-    width: 150%;
+    /* width: 20px; */
     top: -2.1em;
     left: 4.8em;
 }
