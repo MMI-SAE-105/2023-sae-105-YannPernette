@@ -1,5 +1,8 @@
 .header {
     background-color: var(--color-3);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header__logo {
