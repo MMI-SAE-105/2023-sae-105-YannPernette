@@ -25,6 +25,7 @@
   /* Icone menu Hamburger */
   
   .menubtn {
+    z-index: 15;
     width: 40px;
     height: auto;
   }
