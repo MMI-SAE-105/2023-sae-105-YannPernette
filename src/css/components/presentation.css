@@ -1,8 +1,8 @@
 .presentation__img {
-    width: 125%;
+    width: 56.5vh;
     background-color: white;
     padding: 60px 0;
-    margin-top: -16px;
+    margin-top: 56px;
     margin-left: -43px;
 }
 
@@ -11,7 +11,7 @@
     font-weight: 600;
     z-index: 5;
     position: absolute;
-    top: 16.3em;
+    top: 280px;
     right: 0.5em;
 }
 
