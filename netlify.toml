@@ -2,6 +2,50 @@
 [[plugins]]
  package = "@netlify/plugin-lighthouse"
 
- [[plugins.inputs.audits]]
-    output_path="reports/index.html"
+[[plugins.inputs.audits]]
+    output_path="reports/fr/index.html"
     path = "fr/index.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/fr/artistes_presentes.html"
+    path = "fr/artistes_presentes.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/audubon.html"
+    path = "fr/audubon.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/contact.html"
+    path = "fr/contact.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/credits.html"
+    path = "fr/credits.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/description_mouvement.html"
+    path = "fr/description_mouvement.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/details_exposition.html"
+    path = "fr/details_exposition.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/fr/hunt.html"
+    path = "fr/hunt.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/fr/kanitz.html"
+    path = "fr/kanitz.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/fr/north.html"
+    path = "fr/north.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/fr/schenck.html"
+    path = "fr/schenck.html"
+
+[[plugins.inputs.audits]]
+    output_path="reports/index.html"
+    path = "en/index.html"
