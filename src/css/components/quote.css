@@ -1,0 +1,15 @@
+.quote {
+    opacity: 60%;
+    color: var(--color-3);
+}
+
+.quote__desc {
+    z-index: 2;
+    position: absolute;
+    top: 1000px;
+    font-family: var(--maven-pro);
+    font-size: var(--bouton-petit);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
