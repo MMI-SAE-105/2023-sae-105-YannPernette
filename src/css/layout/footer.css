@@ -3,6 +3,7 @@
     font-size: var(--bouton-petit);
     background-color: var(--color-2);
     padding: 15px;
+    margin-top: 60px;
 }
 
 .footer__logo {
