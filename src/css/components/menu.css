@@ -1,5 +1,5 @@
 .menu {
-    background-color: var(--gray-800);
+    background-color: var(--color-2);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -22,14 +22,14 @@
   
   /* Icone menu Hamburger */
   
-  .menuBtn {
+  .menubtn {
     width: 30px;
     height: 30px;
   }
   
-  .menuBtn__bar,
-  .menuBtn__bar::before,
-  .menuBtn__bar::after {
+  .menubtn__bar,
+  .menubtn__bar::before,
+  .menubtn__bar::after {
     content: "";
     background-color: black;
     height: 2px;
@@ -40,10 +40,10 @@
   }
   
   
-  .menuBtn__bar::before {
+  .menubtn__bar::before {
     top: -10px;
   }
   
-  .menuBtn__bar::after {
+  .menubtn__bar::after {
     top: 10px;
   }
