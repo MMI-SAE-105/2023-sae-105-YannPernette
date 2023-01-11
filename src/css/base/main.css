@@ -20,7 +20,7 @@ h1 {
 h2 {
     font-size: var(--basique-plus);
     padding: 5px;
-    margin: 0 0 -15px 25px;
+    margin: 30px 0 -15px 25px;
 }
 
 a {
