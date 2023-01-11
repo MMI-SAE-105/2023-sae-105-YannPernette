@@ -87,6 +87,30 @@
                 <p>Si vous avez bien lu, vous savez maintenant reconnaitre une peinture naturaliste et plus généralement toutes les oeuvres de ce courant.</p>
                 <p>Voici un petit quizz pour vérifier vos connaissances. Vous avez ci-dessous des peintures. À vous de deviner si c'est une peinture naturaliste ou non. Pour connaitre la réponse, cliquez simplement sur la peinture.</p>
     
+                <div class="quizz" x-data="{descrIsOpen : 0}">
+
+                    <section>
+                        <img class="quizz__img" src="../public/img/image/oeuvre/peinture1.webp" alt="Peinture 1" @click="descrIsOpen = 1">
+                        <p class="quizz__descr" x-show="descrIsOpen == 1" x-collapse>Bien joué, c'est effectivement une peinture naturaliste.</p>
+                    </section>
+
+                    <section>
+                        <img class="quizz__img" src="../public/img/image/oeuvre/peinture2.webp" alt="Peinture 2" @click="descrIsOpen = 2">
+                        <p class="quizz__descr" x-show="descrIsOpen == 2" x-collapse>Bien joué, c'est effectivement une peinture naturaliste.</p>
+                    </section>
+
+                    <section>
+                        <img class="quizz__img" src="../public/img/image/oeuvre/peinture3.webp" alt="Peinture 3" @click="descrIsOpen = 3">
+                        <p class="quizz__descr" x-show="descrIsOpen == 3" x-collapse>Bien joué, c'est effectivement une peinture naturaliste.</p>
+                    </section>
+
+                    <section>
+                        <img class="quizz__img" src="../public/img/image/oeuvre/peinture4.webp" alt="Peinture 4" @click="descrIsOpen = 4">
+                        <p class="quizz__descr" x-show="descrIsOpen == 4" x-collapse>Bien joué, c'est effectivement une peinture naturaliste.</p>
+                    </section>
+                
+                </div>
+
             </div>
 
         </section>
