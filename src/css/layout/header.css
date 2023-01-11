@@ -9,3 +9,9 @@
 .header__langue {
     width: 10%;
 }
+
+.header__menuBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
