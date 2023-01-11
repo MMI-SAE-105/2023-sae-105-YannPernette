@@ -9,12 +9,12 @@
 .header__langue {
     position: absolute;
     width: 12%;
-    top: 20px;
-    right: 92px;
+    top: 19px;
+    right: 88px;
 }
 
 .header__menubtn {
     position: absolute;
-    top: 35px;
+    top: 33px;
     right: 20px;
 }
