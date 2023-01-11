@@ -11,12 +11,38 @@
 <body>
 
     <header class="header">
+
         <a href="index.html"><img class="header__logo" src="../public/img/icon/logo_site.svg" alt="Logo 'Le Naturalisme au Naturel'"></a>
+
         <a href=""><img class="header__langue" src="../public/img/icon/drapeau_france.svg" alt="Langue : Français"></a>
+
         <!-- Menu Hamburger en CSS -->
         <button>
             <span></span>
         </button>
+
+        <nav class="header__menu menu" x-show="menuIsOpen">
+
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html">Accueil</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="details_exposition.html">Détails de l'exposition</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="description_mouvement.html">En savoir plus sur le Naturalisme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="artistes_presentes.html">Artistes présentés</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+        </nav>
+
     </header>
 
     <main>
