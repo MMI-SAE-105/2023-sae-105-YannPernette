@@ -1,0 +1,9 @@
+.quizz__img {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+
+.quizz__descr {
+    text-align: center;
+}
