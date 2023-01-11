@@ -3,7 +3,22 @@
 }
 
 .cardlieu__date {
-    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 225px;
+    left: 90px;
+    margin: 0;
+    font-size: var(--basique);
+    font-weight: 400;
+}
+
+.cardlieu__underline {
+    position: absolute;
+    z-index: 2;
+    top: 245px;
+    left: 105px;
+    width: 170px;
+    border-top: 2px solid var(--color-3);
 }
 
 .cardlieu__img {
