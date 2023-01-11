@@ -32,10 +32,10 @@
 
 .carrousel_btn {
     position: absolute;
-    top: 50%; /* centre verticalement */
+    top: -3em; /* centre verticalement */
     transform: translateY(-50%); /* methode du point mort */
-    width: 2rem;
-    height: 2rem;
+    width: 2em;
+    height: 2em;
     background: var(--color-2);
     border-radius: 50%;
     border: none;
@@ -43,14 +43,15 @@
     place-content: center;
     color: var(--color-3);
     font-family: var(--work-sans);
+    font-size: var(--bouton);
 }
   
 .carrousel_btn-avant {
-    left: 1.5px;
+    left: 90px;
 }
   
 .carrousel_btn-apres {
-    right: 1.5px;
+    right: 90px;
 }
 
 .carrousel a {
