@@ -1,0 +1,49 @@
+.menu {
+    background-color: var(--gray-800);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--space4x);
+  }
+  
+  .menu__link {
+    color: var(--white);
+  }
+  
+  .menu__socialNetworks {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Icone menu Hamburger */
+  
+  .menuBtn {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .menuBtn__bar,
+  .menuBtn__bar::before,
+  .menuBtn__bar::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  }
+  
+  
+  .menuBtn__bar::before {
+    top: -10px;
+  }
+  
+  .menuBtn__bar::after {
+    top: 10px;
+  }
