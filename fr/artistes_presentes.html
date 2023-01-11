@@ -54,8 +54,6 @@
 
         <h1>Artistes présentés</h1>
 
-        <img class="carrousel__cadre" src="../public/img/image/cadre.webp" alt="Cadre du carrousel">
-
         <div class="carrousel" x-data="{image_active: '#ecran-1'}">
             
             <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button><button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
@@ -114,7 +112,7 @@
             <h2>Comment ça marche ?</h2>
             <div class="paragraphe">
                 <p>Voici les artistes dont les oeuvres sont exposées à l’exposition.</p>
-                <p>Pour accéder aux pages des artistes, faites défiler le carrousel de portraits avec votre doigt ou utilisez les boutons puis cliquez sur leur nom.</p>
+                <p>Pour accéder aux pages des artistes, faites défiler le carrousel de portraits avec votre doigt ou utilisez les boutons puis cliquez sur leur portrait.</p>
             </div>
         </section>
 
