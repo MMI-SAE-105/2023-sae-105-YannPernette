@@ -1,0 +1,20 @@
+.oeuvre {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.oeuvre__legende {
+    text-align: center;
+    font-family: var(--petit-formal-script);
+    padding: 5px 0 20px;
+}
+
+.oeuvre__line {
+    display: block;
+    width: 200px;
+    border-top: 4px solid var(--color-1);
+    border-radius: 10px;
+    margin-left: 72px;
+}
