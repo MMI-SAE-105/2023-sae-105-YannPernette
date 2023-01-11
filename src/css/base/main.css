@@ -54,3 +54,7 @@ button {
 .preview__legende {
     font-size: 12px;
 }
+
+.lien_hyper {
+    color: var(--color-1);
+}
