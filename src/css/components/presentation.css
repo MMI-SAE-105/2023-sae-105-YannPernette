@@ -9,7 +9,7 @@
 .presentation__date {
     font-size: var(--basique-plus);
     font-weight: 600;
-    z-index: 5;
+    z-index: 2;
     position: absolute;
     top: 280px;
     right: 0.5em;
@@ -23,4 +23,5 @@
     background-color: var(--color-2);
     padding: 10px 50px;
     margin-top: -20px;
+    margin-left: 0;
 }
