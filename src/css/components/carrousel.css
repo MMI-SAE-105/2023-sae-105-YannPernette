@@ -56,7 +56,6 @@
 .carrousel a {
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
 }
 
 .carrousel figcaption {
@@ -64,4 +63,23 @@
     font-size: var(--basique-plus);
     font-family: var(--petit-formal-script);
     margin-bottom: 10px;
+}
+
+.carrousel__indicateur {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.carrousel__rond {
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+}
+
+.actif {
+    background-color: var(--color-1);
+    box-shadow: 0 0 6px #1abc9c;
 }

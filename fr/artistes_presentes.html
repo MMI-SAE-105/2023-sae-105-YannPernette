@@ -54,10 +54,10 @@
 
         <h1>Artistes présentés</h1>
 
-        <div class="carrousel" x-data="{image_active: '#ecran-1'}">
+        <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
             
             <button @click="const p = $refs.parent ; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt</button><button @click="const p = $refs.parent ; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt</button>
-            
+
             <div class="carrousel_parent-ecrans" x-ref="parent" 
                     @scroll.debounce.250ms.passive="
             hrefCourant = '#'+
@@ -66,16 +66,8 @@
                                .id
                                                  "
             >
-
-                <ul class="caroussel__indicateur">
-                    <li><span class="caroussel__rond" :class="{actif:image_active==='#ecran-1'}"></span></li>
-                    <li><span class="caroussel__rond" :class="{actif:image_active==='#ecran-1'}"></span></li>
-                    <li><span class="caroussel__rond" :class="{actif:image_active==='#ecran-1'}"></span></li>
-                    <li><span class="caroussel__rond" :class="{actif:image_active==='#ecran-1'}"></span></li>
-                    <li><span class="caroussel__rond" :class="{actif:image_active==='#ecran-1'}"></span></li>
-                </ul>
                 
-                <div class="carrousel_ecran">
+                <div id="ecran-1" class="carrousel_ecran">
                     <a href="artist/audubon.html">
                         <figure>
                             <img src="../public/img/image/artist/audubon.webp" alt="Jean-Jacques Audubon">
@@ -84,35 +76,51 @@
                     </a>
                 </div>
 
-                <div class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/image/artist/hunt.webp" alt="Ecran 2">
-                        <figcaption>William Henry Hunt</figcaption>
-                    </figure>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <a href="artist/hunt.html">
+                        <figure>
+                            <img src="../public/img/image/artist/hunt.webp" alt="William Henry Hunt">
+                            <figcaption>William Henry Hunt</figcaption>
+                        </figure>
+                    </a>
                 </div>
 
-                <div class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/image/artist/schenck.webp" alt="Ecran 3">
-                        <figcaption>August Friedrich Schenck</figcaption>
-                    </figure>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <a href="artist/schenck.html">
+                        <figure>
+                            <img src="../public/img/image/artist/schenck.webp" alt="August Friedrich Schenck">
+                            <figcaption>August Friedrich Schenck</figcaption>
+                        </figure>
+                    </a>
                 </div>
 
-                <div class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/image/artist/kanitz.webp" alt="Ecran 4">
-                        <figcaption>Felix Philipp Kanitz</figcaption>
-                    </figure>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <a href="artist/kanitz.html">
+                        <figure>
+                            <img src="../public/img/image/artist/kanitz.webp" alt="Felix Philipp Kanitz">
+                            <figcaption>Felix Philipp Kanitz</figcaption>
+                        </figure>
+                    </a>
                 </div>
 
-                <div class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/image/artist/north.webp" alt="Ecran 5">
-                        <figcaption>Marianne North</figcaption>
-                    </figure>
+                <div id="ecran-5" class="carrousel_ecran">
+                    <a href="artist/north.html">
+                        <figure>
+                            <img src="../public/img/image/artist/north.webp" alt="Marianne North">
+                            <figcaption>Marianne North</figcaption>
+                        </figure>
+                    </a>
                 </div>
 
             </div>
+
+            <ul class="carrousel__indicateur menu__list--unstyled">
+                <li><a href="#ecran-1" :class="{actif:hrefCourant==='#ecran-1'}" class="carrousel__rond"><span></span></a></li>
+                <li><a href="#ecran-2" :class="{actif:hrefCourant==='#ecran-2'}" class="carrousel__rond"><span></span></a></li>
+                <li><a href="#ecran-3" :class="{actif:hrefCourant==='#ecran-3'}" class="carrousel__rond"><span></span></a></li>
+                <li><a href="#ecran-4" :class="{actif:hrefCourant==='#ecran-4'}" class="carrousel__rond"><span></span></a></li>
+                <li><a href="#ecran-5" :class="{actif:hrefCourant==='#ecran-5'}" class="carrousel__rond"><span></span></a></li>
+            </ul>
 
         </div>
 
