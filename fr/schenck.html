@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Naturalisme au Naturel</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html"><img class="header__logo" src="../public/img/icon/logo_site.svg" alt="Logo 'Le Naturalisme au Naturel'"></a>
+
+        <a href=""><img class="header__langue" src="../public/img/icon/drapeau_france.svg" alt="Langue : Français"></a>
+
+        <!-- Menu Hamburger en CSS -->
+        <button class="header__menubtn menubtn" onclick="documentElement.classList.toggle('menu__open')" @click="menuIsOpen =! menuIsOpen">
+            <span class="menubtn__bar"></span>
+        </button>
+
+        <nav class="header__menu menu" x-show="menuIsOpen" x-transition.opacity.duration.300ms>
+
+            <ul class="menu__list menu__list--unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html">Accueil</a>
+              </li>
+              <span class="menu__bar"></span>
+              <li class="menu__item">
+                <a class="menu__link" href="details_exposition.html">Détails de l'exposition</a>
+              </li>
+              <span class="menu__bar"></span>
+              <li class="menu__item">
+                <a class="menu__link" href="description_mouvement.html">En savoir plus sur le Naturalisme</a>
+              </li>
+              <span class="menu__bar"></span>
+              <li class="menu__item">
+                <a class="menu__link" href="artistes_presentes.html">Artistes présentés</a>
+              </li>
+              <span class="menu__bar"></span>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>August Friedrich Schenck</h1>
+        
+        <figure>
+            <img src="../public/img/image/artist/schenck.webp" alt="Portrait de August Friedrich Schenck">
+            <figcaption>portrait de August Friedrich Schenck</figcaption>
+        </figure>
+
+        <section>
+            <h2>Qui est-il ?</h2>
+            <div class="paragraphe">
+                <p>August Friedrich Schenck, né le 23 avril 1828 à Glückstadt et mort le 1er janvier 1901 à Écouen, est un artiste peintre franco-allemand.</p>
+                <p>Élève de Léon Cogniet et membre de l'École d'Écouen, il est surtout connu pour ses peintures animalières.</p>
+                <p>Vers 1862, il s’installe avec son épouse Ludowika Stapaczinska, originaire de Varsovie, dans le village d’artistes Écouen, à environ 20 km au nord de Paris. L'École d'Écouen a attiré des artistes de renom tels que Charles-François Daubigny, Camille Corot et Mary Cassatt.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Ses oeuvres</h2>
+            <div class="paragraphe">
+                <a href="">
+                    <figure>
+                        <img class="oeuvre" src="../public/img/image/oeuvre/schenck/anguish.webp" alt="Anguish">
+                        <figcaption class="oeuvre__legende">Anguish</figcaption>
+                    </figure>
+                </a>
+                <span class="oeuvre__line"></span>
+                <a href="">
+                    <figure>
+                        <img class="oeuvre" src="../public/img/image/oeuvre/schenck/sheep_snow.webp" alt="Flock of sheep in the snow">
+                        <figcaption class="oeuvre__legende">Flock of sheep in the snow</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <img class="footer__logo" src="../public/img/icon/logo_cartier.svg" alt="Logo de la fondation Cartier">
+
+        <address><a class="footer__mailto" href="mailto:yann.pernette@edu.univ-fcomte.fr">Yann Pernette MMI1 B2</a></address>
+        <!-- Ligne de séparation -->
+        <span class="footer__line footer__line--1"></span>
+
+        <a class="footer__lien" href="credits.html">Crédits</a>
+        <!-- Ligne de séparation -->
+        <span class="footer__line footer__line--2"></span>
+
+        <div class="footer__mmi">
+            <p class="footer__textemmi">Site réalisé dans le cadre d’un exercice pédagogique au département <a class="footer__lienmmi" href="http://mmimontbeliard.com">MMI de Montbéliard</a></p>
+            <a class="footer__logommi" href="http://mmimontbeliard.com"><img src="../public/img/icon/logo_mmi_white.png" alt="Logo du MMI Montbéliard"></a>
+        </div>
+        <!-- Ligne de séparation -->
+        <span class="footer__line footer__line--3"></span>
+
+        <ul class="footer__reseaux">
+            <li><a href="facebook.com"><img class="footer__reseaux--facebook" src="../public/img/icon/facebook.svg" alt="Logo Facebook"></a></li>
+            <li><a href="twitter.com"><img class="footer__reseaux--twitter" src="../public/img/icon/twitter.svg" alt="Logo Twitter"></a></li>
+            <li><a href="instagram.com"><img class="footer__reseaux--instagram" src="../public/img/icon/instagram.svg" alt="Logo Instagram"></a></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
