@@ -35,3 +35,9 @@ button {
     appearance: none;
     outline: none;
   }
+
+.menu__list--unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
