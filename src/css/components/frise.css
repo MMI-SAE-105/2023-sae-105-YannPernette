@@ -1,0 +1,24 @@
+.frise__img {
+    display: block;
+    margin-left: 150px;
+    width: 50%;
+}
+
+.frise__legende {
+    font-family: var(--petit-formal-script);
+    font-size: var(--basique);
+    margin-left: 70px;
+}
+
+.frise__fleche {
+    position: absolute;
+    top: 1340px;
+    left: 20px;
+    width: 0px;
+    height: 1300px;
+    border: solid black;
+}
+
+.frise__date {
+    margin-left: 40px;
+}
