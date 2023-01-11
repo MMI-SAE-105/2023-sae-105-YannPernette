@@ -7,10 +7,20 @@
 }
 
 .cardlieu__img {
-    margin-left: 0px;
-    width: 110%;
+    display: block;
+    left: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .cardlieu__icon {
-    width: 5%;
+    width: 10px;
+    margin-left: 5px;
+}
+
+.cardlieu__legende {
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+    margin-top: 3px;
 }
