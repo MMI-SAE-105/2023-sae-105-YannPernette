@@ -44,3 +44,7 @@ button {
 .rouge {
     color: red;
 }
+
+.preview__legende {
+    font-size: 12px;
+}
