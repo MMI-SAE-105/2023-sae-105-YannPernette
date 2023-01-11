@@ -18,7 +18,7 @@
         <a href=""><img class="header__langue" src="../public/img/icon/drapeau_france.svg" alt="Langue : Français"></a>
 
         <!-- Menu Hamburger en CSS -->
-        <button class="header__menubtn menubtn" @click="menuIsOpen =! menuIsOpen">
+        <button class="header__menubtn menubtn" onclick="documentElement.classList.toggle('menu__open')" @click="menuIsOpen =! menuIsOpen">
             <span class="menubtn__bar"></span>
         </button>
 

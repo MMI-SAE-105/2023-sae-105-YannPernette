@@ -31,6 +31,11 @@
     margin: 25px 0 25px 60px;
 }
 
+.menu__open,
+.menu__open body {
+    overflow: hidden;
+}
+
 
 /* Icone menu Hamburger */
   
@@ -51,8 +56,8 @@
     position: absolute;
     left: 0;
     z-index: 2;
+    transition: all .4s ease-in-out;
 }
-  
   
 .menubtn__bar::before {
     top: -13px;
@@ -60,4 +65,16 @@
   
 .menubtn__bar::after {
     top: 13px;
+}
+
+.menu__open .menubtn__bar {
+    transform: rotate(135deg);
+    background-color: white;
+}
+
+.menu__open .menubtn__bar::before,
+.menu__open .menubtn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+    background-color: white;
 }
