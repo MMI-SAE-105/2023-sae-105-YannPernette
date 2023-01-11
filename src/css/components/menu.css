@@ -10,24 +10,39 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-  }
-  
-  .menu__link {
-    color: white;
-  }
-  
+}
 
-  /* Icone menu Hamburger */
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu__link {
+    color: white;
+    font-size: var(--menu);
+}
+
+.menu__bar {
+    display: block;
+    width: 70%;
+    border-top: 2px solid var(--color-4);
+    margin: 25px 0 25px 60px;
+}
+
+
+/* Icone menu Hamburger */
   
-  .menubtn {
+.menubtn {
     z-index: 15;
     width: 40px;
     height: auto;
-  }
+}
   
-  .menubtn__bar,
-  .menubtn__bar::before,
-  .menubtn__bar::after {
+.menubtn__bar,
+.menubtn__bar::before,
+.menubtn__bar::after {
     content: "";
     background-color: black;
     height: 4px;
@@ -36,13 +51,13 @@
     position: absolute;
     left: 0;
     z-index: 2;
-  }
+}
   
   
-  .menubtn__bar::before {
+.menubtn__bar::before {
     top: -13px;
-  }
+}
   
-  .menubtn__bar::after {
+.menubtn__bar::after {
     top: 13px;
-  }
+}
