@@ -7,11 +7,14 @@
 }
 
 .header__langue {
-    width: 10%;
+    position: absolute;
+    width: 12%;
+    top: 20px;
+    right: 92px;
 }
 
 .header__menubtn {
     position: absolute;
-    top: 20px;
+    top: 35px;
     right: 20px;
 }
